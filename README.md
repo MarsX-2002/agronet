@@ -13,7 +13,7 @@ AgroNet is a Deep Learning-powered agricultural quality control system. It detec
 
 1.  **Clone the Repository**
     ```bash
-    git clone <your-repo-url>
+    git clone https://github.com/MarsX-2002/agronet.git>
     cd deeplearning
     ```
 
