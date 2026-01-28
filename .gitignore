@@ -1,0 +1,36 @@
+# Environment variables
+.env
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Datasets (Too large for GitHub)
+dataset_potato/
+dataset_carrot/
+dataset_lemon/
+docs/
+detect/
+inference_video/
+
+# YOLO training logs (Optional, keeping 'detect' folder if it contains best.pt models to ship)
+# We keep 'detect/' because it has the trained models app.py needs.
+# But we might want to ignore intermediate 'runs/' if they exist elsewhere.
+runs/
+
+# Temporary files
+temp_*.mp4
+*.tmp
+
+# Mac OS
+.DS_Store
+*.zip
+*.pt
+*.zip
+*.pt
+Level_6_Unit_5_Deep_Learning_and_Neural_Networks_Assignment_Brief.pdf
